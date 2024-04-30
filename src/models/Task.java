@@ -12,7 +12,6 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
-
 @NamedQueries({
     @NamedQuery(
         name = "getAllTasks",
@@ -21,11 +20,7 @@ import javax.persistence.Table;
 })
 
 @Table(name = "tasks")
-
-
 public class Task {
-
-
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
