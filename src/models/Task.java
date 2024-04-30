@@ -20,6 +20,8 @@ import javax.persistence.Table;
 })
 
 @Table(name = "tasks")
+
+
 public class Task {
     @Id
     @Column(name = "id")
